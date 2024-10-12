@@ -1,0 +1,399 @@
+/* Container for the entire layout
+.sliderContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+  .sliderContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+  }
+  
+  .sliderTitle {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .sliderTitle span {
+    color: #db9125;
+  }
+  
+
+  .carouselContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 400px; 
+    overflow: hidden;
+  }
+  
+  .arrowButton {
+    background-color: #f0f0f0;
+    border: none;
+    color: #db9125;
+    font-size: 1.5rem;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .arrowButton:hover {
+    background-color: #db9125;
+    color: white;
+  }
+  
+  .imageTrack {
+    display: flex;
+    transition: transform 0.5s ease; 
+  }
+  
+
+  .imageContainer {
+    flex: 0 0 80px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease, filter 0.5s ease;
+  }
+  
+  .active {
+    transform: scale(1.5); 
+    filter: none;
+  }
+  
+  
+  .inactive {
+    transform: scale(0.8); 
+    filter: blur(4px); 
+  }
+  
+  .circularImage {
+    border-radius: 50%;
+    border: 2px solid #db9125;
+  }
+  
+  
+  .ctaButton {
+    background-color: #ff6600;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .ctaButton:hover {
+    background-color: #ff4500;
+  }
+
+  .testimonialView {
+    width: 35%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .testimonialImage {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    max-width: 100%;
+  }
+
+
+  
+
+//* Container for the entire layout */
+
+/* Container for the entire layout */
+/* Container for the entire layout */
+/* .sliderContainer { */
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    max-width: 1200px;
+    margin: 0 auto; */
+
+    /* display: grid;
+    grid-template-columns: 66% 34%;
+    border-radius: 30px;
+    border: 1px solid #fe7a36;
+    background:white;
+    margin: 50px 130px;
+    padding: 50px 50px 0;
+    align-items: center;
+  }
+  
+  .sliderContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+  }
+  
+  .sliderTitle {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .sliderTitle span {
+    color: #db9125;
+  }
+  
+ 
+  .carouselContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 500px; 
+    overflow: hidden; 
+    padding: 10px 0px;
+    margin-top: 30px;
+  }
+  
+  .carouselTrack {
+    display: flex;
+    transition: transform 0.5s ease; 
+  }
+  
+ 
+  .carouselItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px; 
+    height: 60px; 
+    margin: 0 5px; 
+    transition: transform 0.5s ease, filter 0.5s ease;
+    cursor: pointer;
+    position: relative;
+  }
+  
+
+  .circularImage {
+    border-radius: 50%;
+    border: 2px solid #db9125;
+  }
+  
+  
+  .active {
+    transform: scale(1.3);
+    filter: none; 
+    z-index: 2; 
+  }
+  
+  
+  .inactive {
+    filter: blur(2px); 
+    opacity: 0.6; 
+    z-index: 1;
+    transform: scale(0.9); 
+  }
+
+  .arrowButton {
+    background-color: #db9125;
+    border: none;
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .arrowButton:hover {
+    background-color: #ff6600;
+    color: white;
+  }
+  
+  .left {
+    left: -8px; 
+  }
+  
+  .right {
+    right: -8px; 
+  }
+  
+  
+  .ctaButton {
+    background-color: #ff6600;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .ctaButton:hover {
+    background-color: #ff4500;
+  }
+  
+  
+  .testimonialView {
+    width: 35%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .testimonialImage {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    
+  }
+   */
+
+   .sliderContainer {
+    display: grid;
+    grid-template-columns: 66% 34%;
+    border-radius: 30px;
+    border: 1px solid #fe7a36;
+    background: white;
+    margin: 50px 130px;
+    padding: 50px 50px 0;
+    align-items: center;
+  }
+  
+  .sliderContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+  }
+  
+  .sliderTitle {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .sliderTitle span {
+    color: #db9125;
+  }
+  
+  .carouselContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 500px;
+    overflow: hidden;
+    padding: 10px 0;
+    margin-top: 30px;
+  }
+  
+  .carouselTrack {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carouselItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 60px;
+    margin: 0 5px;
+    transition: transform 0.5s ease, filter 0.5s ease;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .circularImage {
+    border-radius: 50%;
+    border: 2px solid #db9125;
+  }
+  
+  .active {
+    transform: scale(1.3);
+    filter: none;
+    z-index: 2;
+  }
+  
+  .inactive {
+    filter: blur(2px);
+    opacity: 0.6;
+    z-index: 1;
+    transform: scale(0.9);
+  }
+  
+  .arrowButton {
+    background-color: #db9125;
+    border: none;
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .arrowButton:hover {
+    background-color: #ff6600;
+    color: white;
+  }
+  
+  .left {
+    left: -8px;
+  }
+  
+  .right {
+    right: -8px;
+  }
+  
+  .ctaButton {
+    background-color: #ff6600;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .ctaButton:hover {
+    background-color: #ff4500;
+  }
+  
+  .testimonialView {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .testimonialImage {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
