@@ -228,7 +228,7 @@ const users = [
 ];
 
 const Slider = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0); 
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex === users.length - 1 ? 0 : prevIndex + 1));
@@ -253,7 +253,8 @@ const Slider = () => {
               <div
                 key={index}
                 className={`${styles.carouselItem} ${currentIndex === index ? styles.active : styles.inactive}`}
-                style={{ transform: `translateX(${(index - currentIndex) * 100}px)` }}
+                style={{ transform: `translateX(${(index - currentIndex) * 10}px)` }}  
+                onClick={() => setCurrentIndex(index)}  
               >
                 <Image
                   src={user.img}
@@ -286,13 +287,4 @@ const Slider = () => {
 };
 
 export default Slider;
-
-
-
-
-
-
-
-
-
 
